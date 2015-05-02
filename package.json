@@ -1,6 +1,6 @@
 {
   "name": "testdata-w3c-json-form",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Linus Unnebäck <linus@folkdatorn.se>",
   "main": "index.js",
   "devDependencies": {
