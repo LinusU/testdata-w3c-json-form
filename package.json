@@ -1,0 +1,16 @@
+{
+  "name": "testdata-w3c-json-form",
+  "version": "0.0.0",
+  "author": "Linus Unnebäck <linus@folkdatorn.se>",
+  "main": "index.js",
+  "devDependencies": {
+    "standard": "^3.7.2"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/LinusU/testdata-w3c-json-form.git"
+  }
+}
