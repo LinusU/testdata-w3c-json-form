@@ -43,14 +43,17 @@ cases.push({
   }
 })
 
+var heartbeat = []
+heartbeat[0] = 'thunk'
+heartbeat[2] = 'thunk'
 cases.push({
   name: 'sparse arrays',
   fields: [
-    { key: 'hearbeat[0]', value: 'thunk' },
-    { key: 'hearbeat[2]', value: 'thunk' }
+    { key: 'heartbeat[0]', value: 'thunk' },
+    { key: 'heartbeat[2]', value: 'thunk' }
   ],
   expected: {
-    hearbeat: [ 'thunk', null, 'thunk' ]
+    heartbeat: heartbeat
   }
 })
 
@@ -73,6 +76,8 @@ cases.push({
   }
 })
 
+var deep = []
+deep[3] = { much: { power: { '!': 'Amaze' } } }
 cases.push({
   name: 'such deep',
   fields: [
@@ -80,14 +85,7 @@ cases.push({
   ],
   expected: {
     wow: {
-      such: {
-        deep: [
-          null,
-          null,
-          null,
-          { much: { power: { '!': 'Amaze' } } }
-        ]
-      }
+      such: { deep: deep }
     }
   }
 })
