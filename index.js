@@ -22,7 +22,7 @@ cases.push({
     { key: 'bottle-on-wall', value: '3' }
   ],
   expected: {
-    'bottle-on-wall': [ 1, 2, 3 ]
+    'bottle-on-wall': [1, 2, 3]
   }
 })
 
@@ -39,7 +39,7 @@ cases.push({
       species: 'Dahut',
       name: 'Hypatia'
     },
-    kids: [ 'Ashley', 'Thelma' ]
+    kids: ['Ashley', 'Thelma']
   }
 })
 
