@@ -1,6 +1,6 @@
 {
   "name": "testdata-w3c-json-form",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": "LinusU/testdata-w3c-json-form",
   "scripts": {
