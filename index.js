@@ -102,10 +102,10 @@ cases.push({
   expected: {
     mix: {
       '': 'scalar',
-      '0': 'array 1',
-      '2': 'array 2',
-      'key': 'key key',
-      'car': 'car key'
+      0: 'array 1',
+      2: 'array 2',
+      key: 'key key',
+      car: 'car key'
     }
   }
 })
@@ -117,7 +117,7 @@ cases.push({
     { key: 'error[bad', value: 'BOOM BOOM!' }
   ],
   expected: {
-    'error': { good: 'BOOM!' },
+    error: { good: 'BOOM!' },
     'error[bad': 'BOOM BOOM!'
   }
 })
